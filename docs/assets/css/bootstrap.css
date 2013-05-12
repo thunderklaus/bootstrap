@@ -6133,6 +6133,17 @@ a.badge:focus {
   line-height: 30px;
 }
 
+.ngram-item-font {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 17.5px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
 .ngram-word-item {
   display: inline-block;
   height: 20px;
@@ -6175,12 +6186,15 @@ a.badge:focus {
 }
 
 .ngram-word-container-title {
-  padding-right: 0.5em;
-  margin-bottom: 20px;
-  font-size: 21px;
-  font-weight: 200;
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 17.5px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .ngram-headline {
