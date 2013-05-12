@@ -1,4 +1,4 @@
-.ngramword {
+.ngram-word-item {
   display: inline-block;
   height: @baseLineHeight;
   padding: 4px 6px;
@@ -15,7 +15,7 @@
   .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
 }
 
-.remove-word-icon {
+.ngram-remove-word-icon {
   font-size: @fontSizeLarge;
   font-weight: bold;
   color: @black;
@@ -29,7 +29,17 @@
   }
 }
 
-.container-header {
+.ngram-word-container {
+  overflow: hidden;
+}
+
+.ngram-word-container-title {
+  .lead;
+  padding-right: 0.5em;
+  font-weight: bold;
+}
+
+.ngram-headline {
   padding: 2em 4em;
   margin-bottom: 2em;
   .gradientBar(darken(@blueDark, 10%), darken(@blueDark, 20%));
